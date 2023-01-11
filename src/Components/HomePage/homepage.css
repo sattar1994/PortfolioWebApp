@@ -1,0 +1,125 @@
+.home-parent{
+  height: 100vh;
+  color: white;
+  
+}
+.navbar-parent{
+  height: 10vh;
+  box-shadow: 0 0 2px #383838;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  justify-content: space-between;
+/*   background-color: #404040; */
+}
+.navbar-list{
+  list-style: none;
+  display: flex;
+}
+.navbar-list .item{
+  color: #050505;
+  font-size: 1.6em;
+  margin: 0px 15px;
+  text-decoration: none;
+}
+.navbar-list .item li:hover{
+ color: white;
+ text-shadow: 0 0 15px #000000;
+}
+ .myportfolio{
+   color: black;
+ }
+/*end navbar style*/
+
+.content-parent{
+  padding: 8px;
+  display: flex;
+  height: 87vh;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 15px;
+  align-items: center;
+  
+}
+.parent-img{
+  width: 45%;
+  height: 100%;
+  text-align:center;
+}
+.parent-img .image{
+  width: 100%;
+  height:100%;
+  border-radius: 80px;
+}
+.parent-text{
+  width: 45%;
+  height: 100%;
+  box-shadow: 0 0 20px black inset;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  text-align: center;
+}
+.parent-text .hello{
+  color: #3700ff;
+  font-size: 4rem;
+}
+.parent-text .sattar{
+  color: #3700ff;
+  font-size: 4rem;
+}
+.parent-text .name{
+  font-size: 2rem;
+  color: red;
+}
+.parent-text .react{
+  font-size: 2rem;
+  padding-top: 100px;
+  color: red;
+}
+
+
+@media screen and (max-width: 680px){
+  .navbar-parent{
+    display: flex;
+    flex-direction: column;
+    padding: 6px 0px 12px 0px;
+    height: 16vh;
+  }
+  .navbar-list .item{
+    font-size: 1.4em;
+    margin-top: 8px;
+  }
+  .myportfolio{
+    font-size: 1.6em;
+    margin-bottom: 8px;
+    color: white;
+    text-shadow: 0 0 10px black;
+  }
+/*end navbar dtyle*/
+.content-parent{
+  display:flex;
+  flex-direction:column;
+  padding: 0px;
+}
+.parent-text{
+      width: 100%;
+      height: 85vh;
+      border-radius: 5px;
+      padding: 4px 5px;
+  background-color: white;
+  }
+  .parent-text .hello{
+    color: black;
+  }
+.parent-img{
+    width: 100%;
+    margin-top: 25px;
+  }
+  .parent-img .image{
+    width: 100%;
+  border-radius: 50%;
+  }
+ 
+}

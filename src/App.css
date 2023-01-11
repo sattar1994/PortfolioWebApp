@@ -1,0 +1,13 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: fantasy;
+  text-shadow: 0 0 15px white;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+body{
+  background-color: #fafafa;
+  overflow-x: hidden;
+}

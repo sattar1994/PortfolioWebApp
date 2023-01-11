@@ -1,0 +1,64 @@
+.content-parent{
+  display: flex;
+  width: 100%;
+}
+.content-text{
+  width: 50%;
+  height:100%;
+
+}
+.content-p{
+  font-size: 2rem;
+  font-family: sans-serif;
+  line-height: 2em;
+
+}
+.adress-parent{
+  width: 50%;
+  height: 100%;
+  text-align: center;  
+}
+.adres{
+  line-height: 5rem;
+}
+.adres a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+.adres a:hover{
+  color: blue;
+}
+.adres .icon{
+    color: #2c03fc;
+/*   text-shadow: 0 0 10px black; */
+}
+@media screen and (max-width: 680px){
+  .content-parent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .content-text{
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .content-p{
+    font-size: 25px;
+  }
+ .adress-parent{
+   width: 100%;
+   height: 400px;
+   background-color: yellow;
+   padding:4px;
+   text-align: justify;
+ }
+   .adress-parent a{
+     font-size: 16px;
+   }
+ .adress-parent h1{
+   font-size: 22px;
+ }
+  
+}
